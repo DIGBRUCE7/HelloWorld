@@ -7,6 +7,7 @@
     <?php
     $age = 19;
     $wantedGoods = "mugs";
+    /*
     if ($age < 16) {
         print "You can't buy anything.";
     }
@@ -19,6 +20,7 @@
     else {
         print "You can buy specs and mugs";
     }
+    */
 
     switch($wantedGoods) {
         case "specs":
