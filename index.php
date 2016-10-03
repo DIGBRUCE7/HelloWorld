@@ -9,7 +9,8 @@
     foreach($provisionedActivities as $x) {
         print "<p>$x</p>";
     }
-
+    $provisionedActivities[1] = "Hugs"; // modifies position 1 (Mugs)
+    echo $provisionedActivities[1] // outputs "Hugs"
     ?>
 </p>
 </body>
