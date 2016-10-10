@@ -6,3 +6,9 @@ define('DB_PASSWORD', '6fab8060');
 define('DB_DATABASE', 'db_7' );
 
 $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+
+//test connection
+
+if($db->connect_errno){
+    die('Connectfailed['.$db->connect_error.']');
+}
