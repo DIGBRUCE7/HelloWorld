@@ -22,6 +22,9 @@ $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 if($db->connect_errno){
     die('Connectfailed['.$db->connect_error.']');
 }
+else {
+    print "Success";
+}
 
     ?>
 </body>
