@@ -1,12 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>DB7</title>
-</head>
-<body>
-
 <?php
 
 define('DB_SERVER', 'eu-cdbr-azure-west-a.cloudapp.net');
@@ -18,5 +10,3 @@ $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
 
     ?>
-</body>
-</html>
